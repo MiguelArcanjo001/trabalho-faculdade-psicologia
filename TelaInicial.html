@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela Inicial</title>
+    <link rel="stylesheet" href="Telainicial.css">
+</head>
+<body >
+    <section class="TelaInicial">
+        <header>
+            <h3>Tela Inicial</h3>
+        </header>
+    </section>
+
+    <section class="Formulario">
+        <div class="DivForms">
+            <form action="">
+
+  <label for="Cidade" class="label">Digite sua cidade:</label>
+  <input type="text" id="Cidade" name="Cidade" placeholder="Digite sua cidade">
+  <br>
+
+  <label for="Endereco" class="label">Qual seu endereço?:</label>
+  <input type="text" id="Endereco" name="Endereco" placeholder="Digite seu endereço">
+  <br>
+
+  <label for="Fim" class="label">Onde você quer ir?:</label>
+  <input type="text" id="Fim" name="Fim" placeholder="Digite aonde você quer ir">
+  <br>
+
+  <label for="CPF" class="label">Digite seu CPF:</label>
+  <input type="text" id="CPF" name="CPF" placeholder="Digite seu CPF">
+  <br>
+
+  <label for="Parada" class="label">Digite sua parada:</label>
+  <input type="text" id="Parada" name="Parada" placeholder="Digite sua parada">
+  <br>
+
+  <label for="Onibus" class="label">Qual ônibus você vai pegar?:</label>
+  <input type="text" id="Onibus" name="Onibus" placeholder="Digite o ônibus">
+  <br>
+
+  <!-- DEFICIÊNCIA -->
+  <label class="label">Você possui alguma deficiência?</label>
+  <div>
+    <label class="opcao">
+      <input type="radio" name="deficiencia" value="sim">
+      <span class="SimBTN">Sim</span>
+    </label>
+
+    <label class="opcao">
+      <input type="radio" name="deficiencia" value="nao">
+      <span class="NaoBTN">Não</span>
+    </label>
+  </div>
+
+  <br>
+
+  <!-- PAGAMENTO -->
+  <label class="label">Qual seu método de pagamento?</label>
+  <div>
+
+    <label class="opcao">
+      <input type="radio" name="Pagamento" value="credito">
+      <span>Cartão de crédito</span>
+    </label>
+
+    <label class="opcao">
+      <input type="radio" name="Pagamento" value="debito">
+      <span>Cartão de débito</span>
+    </label>
+
+    <label class="opcao">
+      <input type="radio" name="Pagamento" value="dinheiro">
+      <span>Dinheiro</span>
+    </label>
+
+    <label class="opcao">
+      <input type="radio" name="Pagamento" value="pix">
+      <span>PIX</span>
+    </label>
+
+    <label class="opcao">
+      <input type="radio" name="Pagamento" value="vem">
+      <span>VEM</span>
+    </label>
+
+  </div>
+
+</form>
+
+            <button class="continuarBTN" type="button">Ver meu onibus</button>
+
+        </div>
+    </section>
+    <script src="Logica.js"></script>
+</body>
+</html>
