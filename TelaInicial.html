@@ -5,16 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela Inicial</title>
-    <link rel="stylesheet" href="Telainicial.css">
+    <!-- <link rel="stylesheet" href="Telainicial.css"> -->
+    <link id="temaCSS" rel="stylesheet" href="telaboa.css">
 </head>
-<body >
+<body>
+  <button id="trocarModo">TROCAR MODO</button>
     <section class="TelaInicial">
         <header>
             <h3>Tela Inicial</h3>
         </header>
     </section>
 
-    <section class="Formulario">
+    <!-- 👇 ID IMPORTANTE -->
+    <section class="Formulario" id="formTela">
         <div class="DivForms">
             <form action="">
 
@@ -95,6 +98,11 @@
 
         </div>
     </section>
+
+    <!-- 👇 NOVA TELA (ESSENCIAL) -->
+    <div id="telasSistema"></div>
+
     <script src="Logica.js"></script>
+
 </body>
 </html>
