@@ -115,7 +115,7 @@ body { overflow-y: scroll; }
 
 /* Texto difícil de ler */
 .DivForms::before {
-  content: "\26A0\FE0F ALERTA: interface bruta";
+ 
   display: block;
   color: #ffffff;
   background: #000000;
