@@ -186,7 +186,7 @@ function fluxoBom() {
   let tempo = Math.floor(Math.random() * 10) + 1;
 
   mostrarTela(`
-    <h1>ONIBUS CONFIRMADO</h1>
+    <h2>Ônibus confirmado</h2>
     <p>Chega em ${tempo} minutos</p>
     <button onclick="fecharTela()">Ok</button>
   `);
