@@ -185,11 +185,11 @@ function fluxoBom() {
 
   let tempo = Math.floor(Math.random() * 10) + 1;
 
-  document.getElementById("formTela").innerHTML = `
-    <h2>Ônibus confirmado</h2>
+  mostrarTela(`
+    <h1>ONIBUS CONFIRMADO</h1>
     <p>Chega em ${tempo} minutos</p>
     <button onclick="fecharTela()">Ok</button>
-  `;
+  `);
 }
 
 
