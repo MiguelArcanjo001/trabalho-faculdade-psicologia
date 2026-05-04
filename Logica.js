@@ -188,6 +188,7 @@ function fluxoBom() {
   document.getElementById("formTela").innerHTML = `
     <h2>Ônibus confirmado</h2>
     <p>Chega em ${tempo} minutos</p>
+    <button onclick="fecharTela()">Ok</button>
   `;
 }
 
