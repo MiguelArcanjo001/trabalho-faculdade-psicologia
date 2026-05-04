@@ -196,7 +196,14 @@ function fluxoBom() {
 // 📢 ANÚNCIOS CONTROLADOS
 // ========================
 
-const anuncios = ["assets/wallpaper.png"];
+
+
+const anuncios = [
+  "assets/wallpaper.png",
+  "assets/anuncio1.jpg",
+  "assets/anuncio2.jpg",
+  "assets/anuncio3.jpg"
+];
 
 function iniciarAds() {
   if (intervaloAds) return;
@@ -216,12 +223,14 @@ function mostrarAnuncioFull() {
 
   if (document.querySelector(".anuncio-full")) return;
 
+  const imgSrc = anuncios[Math.floor(Math.random() * anuncios.length)];
+
   const div = document.createElement("div");
   div.className = "anuncio-full";
 
   div.innerHTML = `
     <button onclick="fecharAnuncioFull()">X</button>
-    <img src="${anuncios[0]}">
+    <img src="${imgSrc}">
   `;
 
   document.body.appendChild(div);
