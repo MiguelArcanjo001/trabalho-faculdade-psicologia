@@ -199,7 +199,6 @@ function fluxoBom() {
 
 
 const anuncios = [
-  "assets/wallpaper.png",
   "assets/anuncio1.jpg",
   "assets/anuncio2.jpg",
   "assets/anuncio3.jpg"
